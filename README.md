@@ -81,7 +81,7 @@ nano /etc/fstab
 ```bash
 nfs-singleswitching:/data/nfs-storage /mnt/nfs-storage nfs nolock 0 0
 ```
-- apply config
+- apply config (connect to nfs server)
 ```bash
 mount -a
 ```
