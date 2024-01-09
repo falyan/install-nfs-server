@@ -15,12 +15,6 @@ mkdir -p /data/nfs-storage/data
 mkdir -p /data/nfs-storage/logs
 ```
 
-## Bind mount the directories to the share mount points
-```bash
-mount --bind /data/nfs-storage/data
-mount --bind /data/nfs-storage/logs
-```
-
 ## make the bind mounts permanent across reboots, open the /etc/fstab file
 
 ```bash
