@@ -86,4 +86,7 @@ df -h | grep nfs-storage
 
 your nfs client & nfs server has been installed
 
+## 🔗 About me
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/falyan-zuril-587585247/)
+
 
