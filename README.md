@@ -102,7 +102,7 @@ touch testing.py
 touch tetsing.tf
 ```
 
-- cek file in nfs client
+- check file in nfs client
 
 ```bash
 cd /mnt/nfs-storage/data
