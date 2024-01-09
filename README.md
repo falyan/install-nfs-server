@@ -93,6 +93,28 @@ df -h | grep nfs-storage
 
 your nfs client & nfs server has been installed
 
+# Testing 
+
+- create a file in nfs server on path **/data/nfs-storage/data**
+```bash
+cd /data/nfs-storage/data
+touch testing.py
+touch tetsing.tf
+```
+
+- cek file in nfs client
+
+```bash
+cd /mnt/nfs-storage/data
+ls
+```
+
+![Alt text](image-6.png)
+
+
+# conclusion
+in nfs server path for storage in **/data/nfs-storage/data** and path sharing for client in **/mnt/nfs-storage/data**
+
 ## 🔗 About me
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/falyan-zuril-587585247/)
 
