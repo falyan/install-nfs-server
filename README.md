@@ -74,7 +74,7 @@ apt install nfs-common
 ```bash
 mkdir -p /mnt/nfs-storage
 ```
-- add & sync path nfs server & nfs client
+- add & sync nfs client to path nfs server 
 ```bash
 nano /etc/fstab
 ```
