@@ -46,6 +46,13 @@ exportfs -v
 
 ![Alt text](image-2.png)
 
+- change owner directory file sharing
+```bash
+chown -R nobody:nogroup data
+chown -R nobody:nogroup logs
+```
+![Alt text](image-5.png)
+
 ## Set Up the NFS Clients
 ### setup domain local first
 - login into server nfs client & setup host local for communicate with nfs server bellow
