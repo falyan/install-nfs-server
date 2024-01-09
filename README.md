@@ -6,7 +6,7 @@
 | `ss-worker-01`        | `10.14.157.225` | Server for NFS Client |
 
 Installation NFS Server
-## Installing the NFS server
+## Installing the NFS server (nfs-singleswitching)
 - update & install
 ```bash
 apt update
@@ -53,7 +53,7 @@ chown -R nobody:nogroup logs
 ```
 ![Alt text](image-5.png)
 
-## Set Up the NFS Clients
+## Set Up the NFS Clients (ss-worker-01)
 ### setup domain local first
 - login into server nfs client & setup host local for communicate with nfs server bellow
 ```bash
