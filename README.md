@@ -63,7 +63,7 @@ apt install nfs-common
 ```
 
 ### add mounting filesystem
-- create directory for sharing directory
+- create directory for sharing file
 ```bash
 mkdir -p /mnt/nfs-storage
 ```
