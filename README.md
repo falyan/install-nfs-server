@@ -84,4 +84,6 @@ df -h | grep nfs-storage
 ```
 ![Alt text](image-4.png)
 
+your nfs client & nfs server has been installed
+
 
